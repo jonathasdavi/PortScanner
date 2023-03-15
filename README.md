@@ -1,9 +1,9 @@
 
-## Port Scanner
+## 🌐 Port Scanner
 
 This script is a simple port scanner that allows the user to scan a range of ports on a target host to check for open ports. It also provides the ability to convert an IP address to a domain name and vice versa.
 
-### Installation
+### 📥 Installation
 
 This script requires Python 3 to be installed. Additionally, the `scapy` package needs to be installed for this script to work.
 
@@ -11,7 +11,7 @@ To install the required packages, run the following command:
 
     pip install scapy
 
-### Usage
+### 🚀 Usage
 
 To use the port scanner, simply run the `port_scanner.py` script with Python. The script will prompt the user to enter the target host's IP address or domain name, as well as the range of ports to scan.
 
@@ -19,7 +19,7 @@ The script will then scan the specified range of ports on the target host and pr
 
 Additionally, the script will display the duration of the scan in seconds and minutes (if the scan took longer than 60 seconds). It will also convert the IP address or domain name to its opposite type and display the result.
 
-### Functionality
+### 🛠️ Functionality
 
 #### `scan_ports`
 
@@ -81,6 +81,6 @@ This function sends an ICMP echo request to a remote host and analyzes the respo
         Returns:
             The name of the operating system running on the remote host.
         """
-## License
+## 📝 License
 
 This script is licensed under the MIT License. See the LICENSE file for more information.
